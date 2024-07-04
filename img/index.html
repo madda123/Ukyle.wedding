@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ujang & Kyle Jenner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <main class="container d-flex flex-column align-items-center justify-content-center text-center shadow-text content">
+        <h4>kepada Bapak/Ibu/Saudara/i</h4>
+        <h1 class="names">Ujang & Kyle Jenner</h1>
+        <p>Akan melangsungkan pernikahan dalam:</p>
+        <div id="countdown" class="countdown">
+            <div id="days"></div>
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+        </div>
+        <button onclick="scrollToSection('invitation')" class="btn btn-pink mt-3">Lihat Undangan</button>
+    </main>
+    
+    <section id="invitation" class="section text-center">
+        <div class="container">
+            <h2 class="section-title">Undangan Pernikahan</h2>
+            <p>Dengan penuh kebahagiaan dan cinta, kami mengundang Anda untuk merayakan hari bahagia kami.</p>
+            <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+            <p><strong>Tanggal:</strong> 31 Desember 2024</p>
+            <p><strong>Waktu:</strong> 15:37</p>
+            <p><strong>Lokasi:</strong> Menara Eiffel, Paris, Prancis</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999353900235!2d2.292292915674242!3d48.85884407928737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdb00fc01b1%3A0x40b82c3688c9460!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1622988826593!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section id="gallery" class="section bg-light text-center">
+        <div class="container">
+            <h2 class="section-title">Galeri Foto</h2>
+            <div class="gallery">
+                <div class="heart" style="background: url('C:/Users/user/OneDrive/Pictures/photo1.jpg') no-repeat center/cover;"></div>
+                <div class="heart" style="background: url('C:/Users/user/OneDrive/Pictures/photo5.jpg') no-repeat center/cover;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="love-story" class="section text-center">
+        <div class="container">
+            <h2 class="section-title">Cerita Cinta Kami</h2>
+            <p>Ini adalah cerita tentang perjalanan cinta kami.</p>
+            <p>Ujang dan Kyle pertama kali bertemu di sebuah taman kota. Ujang sedang berlari pagi dan secara tidak sengaja menabrak Kyle yang sedang membaca buku. Mereka berkenalan dan mulai sering bertemu di taman yang sama.</p>
+            <p>Ujang dan Kyle mulai berteman dan sering menghabiskan waktu bersama, dari jogging hingga minum kopi. Mereka saling berbagi cerita dan impian, dan persahabatan mereka pun semakin erat.</p>
+            <p>Seiring waktu, perasaan cinta mulai tumbuh di antara mereka. Ujang akhirnya memberanikan diri untuk mengungkapkan perasaannya, dan Kyle pun merasakan hal yang sama. Mereka resmi menjadi pasangan dan perjalanan cinta mereka semakin indah.</p>
+            <p>Dan begitulah, Ujang dan Kyle memulai perjalanan hidup mereka sebagai suami istri, dengan cinta dan kebahagiaan yang terus berkembang.</p>
+        </div>
+    </section>
+
+    <section id="islamic-marriage" class="section bg-light text-center">
+        <div class="container">
+            <h2 class="section-title">Pernikahan dalam Islam</h2>
+            <p>Pernikahan dalam Islam adalah sebuah sunnah yang sangat dianjurkan untuk menyempurnakan agama. Allah SWT berfirman dalam Al-Qur'an:</p>
+            <blockquote class="blockquote">
+                <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir." (Q.S. Ar-Rum: 21)</p>
+            </blockquote>
+            <p>Semoga pernikahan kami selalu dalam lindungan dan berkah dari Allah SWT. Aamiin.</p>
+        </div>
+    </section>
+
+    <section id="wedding-gift" class="section bg-light text-center">
+        <div class="container">
+            <h2 class="section-title">Daftar Hadiah Pernikahan</h2>
+            <p>Jika Anda ingin memberi kami hadiah, berikut adalah beberapa pilihan:</p>
+            <ul class="list-group">
+                <li class="list-group-item" onclick="showGiftDetails('voucher')">Voucher perjalanan</li>
+                <li class="list-group-item" onclick="showGiftDetails('household')">Peralatan rumah tangga</li>
+                <li class="list-group-item" onclick="showGiftDetails('cash')">Kado dalam bentuk uang tunai</li>
+                <li class="list-group-item" onclick="showGiftDetails('other')">Hadiah lainnya sesuai dengan keinginan Anda</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="rsvp" class="section text-center">
+        <div class="container">
+            <h2 class="section-title">Konfirmasi Kehadiran</h2>
+            <p>Silakan konfirmasi kehadiran Anda dengan mengisi formulir di bawah ini:</p>
+            <form id="rsvp-form" class="text-start mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="attendance" class="form-label">Kehadiran</label>
+                    <select class="form-control" id="attendance" required>
+                        <option value="">Pilih Status Kehadiran</option>
+                        <option value="Hadir">Hadir</option>
+                        <option value="Tidak Hadir">Tidak Hadir</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-pink">Konfirmasi Kehadiran</button>
+            </form>
+        </div>
+    </section>
+
+    <audio id="background-audio" controls autoplay loop style="display:none;">
+        <source src="path/to/your/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // Countdown Timer
+        const countDownDate = new Date("Dec 31, 2024 15:37:25").getTime();
+        const countdownFunction = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days + "d ";
+            document.getElementById("hours").innerHTML = hours + "h ";
+            document.getElementById("minutes").innerHTML = minutes + "m ";
+            document.getElementById("seconds").innerHTML = seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "Acara telah berlangsung";
+            }
+        }, 1000);
+
+        // Scroll to Section
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({behavior: 'smooth'});
+        }
+
+        // Show Gift Details
+        function showGiftDetails(giftType) {
+            let giftMessage;
+            switch(giftType) {
+                case 'voucher':
+                    giftMessage = "Voucher perjalanan bisa berupa tiket pesawat, voucher hotel, atau paket perjalanan wisata.";
+                    break;
+                case 'household':
+                    giftMessage = "Peralatan rumah tangga seperti blender, oven, atau alat memasak lainnya.";
+                    break;
+                case 'cash':
+                    giftMessage = "Kado dalam bentuk uang tunai bisa dikirim melalui rekening bank.";
+                    break;
+                case 'other':
+                    giftMessage = "Hadiah lainnya sesuai dengan keinginan dan kreativitas Anda.";
+                    break;
+                default:
+                    giftMessage = "Pilih hadiah yang sesuai.";
+            }
+            alert(giftMessage);
+        }
+
+        // RSVP Form Submission
+        document.getElementById("rsvp-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("Terima kasih atas konfirmasi kehadirannya!");
+        });
+    </script>
+</body>
+</html>
